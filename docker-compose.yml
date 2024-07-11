@@ -2,8 +2,7 @@ version: '3.8'
 
 
 services:
-  bot:
-    container_name: nodo-chrome-rasp
+  container_name: nodo-firefox-rasp
     restart: always
     build: 
       context: .
