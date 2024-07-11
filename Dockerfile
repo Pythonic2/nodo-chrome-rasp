@@ -1,1 +1,1 @@
-FROM deinchristian/rpi-selenium-node-chrome
+FROM docker pull selenium/standalone-firefox
