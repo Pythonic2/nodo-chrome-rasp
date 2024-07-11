@@ -1,1 +1,1 @@
-FROM docker pull selenium/standalone-firefox
+FROM selenium/standalone-firefox
