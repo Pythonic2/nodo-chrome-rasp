@@ -1,10 +1,8 @@
-version: '3.8'
-
-
+version: '3'
 services:
-  container_name: nodo-firefox-rasp
-    restart: always
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    pull_policy: build
+    container_name: nodo-firefox-rasp
+      restart: always
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      pull_policy: build
